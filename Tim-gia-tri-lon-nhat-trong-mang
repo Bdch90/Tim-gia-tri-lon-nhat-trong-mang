@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tìm giá trị trong mảng</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	
+	var mang=[-3,5,1,3,2,10];
+	document.write(mang+'<br>');
+	var max=mang[0];
+	var y = 0;
+		for(var x=0;x<mang.length;x++) {
+			if(max<mang[x]) {
+				max=mang[x];
+				y=x;	
+			}
+		}
+		document.write(max+'tai vi tri'+y);
+</script>
+</body>
+</html>
